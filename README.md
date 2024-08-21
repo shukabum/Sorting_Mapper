@@ -34,7 +34,8 @@ Use mingw32-make to compile the project. Make sure you're in the project directo
     mingw32-make
    
     ./Sorting_Project
-    ## Important
+   
+ ## Important
          - Each time if any changes are made in the data_generation code then you have to run both of the above commands again.
          - Each time if any changes are made in the code then you have to run both of the above commands again.
 
