@@ -14,32 +14,46 @@ The `Sorting_Project` is a C++ project designed to identify sorting algorithms b
 
 ## Setup
 
-1. **Clone the Repository**
+1.  **Clone the Repository**
 
-   ````bash
-   git clone https://github.com/yourusername/Sorting_Project.git
-   
-   cd Sorting_Project
-   
-2. **Create Test Data**
-Before running the project, generate the test data file by running the data_generator program. This will create the test_data.txt file needed for sorting.
+    ```bash
+    git clone https://github.com/yourusername/Sorting_Project.git
+
+    cd Sorting_Project
+
+    ```
+
+2.  **Create Test Data**
+    Before running the project, generate the test data file by running the data_generator program. This will create the test_data.txt file needed for sorting.
     ```bash
     g++ -o data_generator data_generator.cpp
-    
-    ./data_generator
-3. **Build and Run the Project**
-Compile the Project
-Use mingw32-make to compile the project. Make sure you're in the project directory where the Makefile is located.
-   ```bash
-    mingw32-make
-   
-    ./Sorting_Project
+        ./data_generator
+3.  **Build and Run the Project**
+    Compile the Project
+    Use mingw32-make to compile the project. Make sure you're in the project directory where the Makefile is located.
+    ```bash
+     mingw32-make
+
+     ./Sorting_Project
+    ```
+
+## How to change the number of iterations:
+
+You can change the number of iterations in the main.cpp file. The variable "repetitions" is used to control the number of times each sorting algorithm is executed.
+
+## How to change the size of the test data:
+
+You can change the size of the test data in the data_generator.cpp file. The variable "size" is used to control the size of the test data.
+
+## KEYPOINTS
+
+- If the dataset is small (100-500) we need to have more than 100000 iterations
+- If the dataset is large (1000-5000) we can run the it under 10000 iterations.
+
 ## Contributing
+
 If you want to contribute to this project, feel free to fork the repository and submit pull requests. For any issues or enhancements, please open an issue on the GitHub repository.
 
 ## Contact
+
 For any questions or further information, please contact s_sharma2@me.iitr.ac.in
-
-
-
-   
